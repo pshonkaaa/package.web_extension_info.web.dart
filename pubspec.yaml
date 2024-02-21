@@ -15,9 +15,9 @@ dependencies:
 
   synchronized: any
   
-  foundation:
+  pshondation:
     git:
-      url: https://github.com/pshonkaaa/package.foundation.dart.git
+      url: https://github.com/pshonkaaa/package.pshondation.dart.git
 
   web_chrome_api:
     git:
