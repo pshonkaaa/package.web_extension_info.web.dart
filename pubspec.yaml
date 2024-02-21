@@ -1,0 +1,28 @@
+name: web_extension_info
+description:
+version: 0.0.1
+homepage:
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  intl: any
+  meta: any
+  logging: any
+  logger: any
+
+  synchronized: any
+  
+  foundation:
+    git:
+      url: https://github.com/pshonkaaa/package.foundation.dart.git
+
+  web_chrome_api:
+    git:
+      url: https://github.com/pshonkaaa/package.web_chrome_api.web.dart.git
+
+  web_communication:
+    git:
+      url: https://github.com/pshonkaaa/package.web_communication.web.dart.git
