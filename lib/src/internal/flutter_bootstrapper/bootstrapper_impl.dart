@@ -1,5 +1,5 @@
 import 'dart:ui' as ui;
-import 'dart:html' as html;
+import 'package:web/web.dart' as html;
 import 'dart:js_util';
 
 import 'package:logger/logger.dart';
@@ -76,11 +76,11 @@ class WebFlutterBootsrapperImpl implements WebFlutterBootsrapper {
   }
 
   static html.Element _createDomElementForFlutterEngine() {
-    html.Element? root = html.document.querySelector('.flutter_view');
+    html.HTMLElement? root = html.document.querySelector('.flutter_view') as html.HTMLElement?;
     bool exists = root != null;
 
     if(!exists) {
-      root = html.document.createElement('div');
+      root = html.document.createElement('div') as html.HTMLElement;
 
       root.className = 'flutter_view';
       

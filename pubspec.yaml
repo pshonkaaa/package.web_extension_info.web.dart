@@ -5,7 +5,7 @@ homepage:
 publish_to: none
 
 environment:
-  sdk: ">=3.1.1 <4.0.0"
+  sdk: ">=3.3.1 <4.0.0"
 
 dependencies:
   flutter:
@@ -23,6 +23,8 @@ dependencies:
 
   # WEB
   # ------------------------------------------------------------------------------------------
+  web: any
+  
   web_window_api:
     git:
       url: https://github.com/pshonkaaa/package.web_window_api.web.dart.git
